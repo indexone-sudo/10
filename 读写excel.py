@@ -1,8 +1,7 @@
 
 import xlrd  #引入模块
-
+#12313
 #打开文件，获取excel文件的workbook（工作簿）对象
-workbook=xlrd.open_workbook("banch\\123.xlsx")  #文件路径
 
 '''对workbook对象进行操作'''
 
@@ -36,7 +35,7 @@ print(col_data[1])#b1
 #通过坐标读取表格中的数据
 cell_value1=sheet0.cell_value(1,1)
 print(cell_value1)
-
+#123123123213213
 
 
 
@@ -53,7 +52,7 @@ style_compression:表示是否压缩，不常用。
 '''
 
 # 创建一个sheet对象
-sheet = book.add_sheet('test01', cell_overwrite_ok=True)
+sheet = book.add_sheet('test01', cell_overwrite_ok=True############)#
 # 其中的test是这张表的名字,cell_overwrite_ok，表示是否可以覆盖单元格，其实是Worksheet实例化的一个参数，默认值是False
 
 
